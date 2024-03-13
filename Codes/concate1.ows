@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="CSV File Import" qualified_name="Orange.widgets.data.owcsvimport.OWCSVFileImport" project_name="Orange3" version="" title="CSV File Import" position="(192.0, 156.0)" />
+		<node id="1" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table" position="(359.0, 127.0)" />
+		<node id="2" name="CSV File Import" qualified_name="Orange.widgets.data.owcsvimport.OWCSVFileImport" project_name="Orange3" version="" title="CSV File Import (1)" position="(224.0, 365.0)" />
+		<node id="3" name="CSV File Import" qualified_name="Orange.widgets.data.owcsvimport.OWCSVFileImport" project_name="Orange3" version="" title="CSV File Import (2)" position="(182.0, 515.0)" />
+		<node id="4" name="CSV File Import" qualified_name="Orange.widgets.data.owcsvimport.OWCSVFileImport" project_name="Orange3" version="" title="CSV File Import (3)" position="(193.0, 690.0)" />
+		<node id="5" name="Impute" qualified_name="Orange.widgets.data.owimpute.OWImpute" project_name="Orange3" version="" title="Impute" position="(372.0, 224.0)" />
+		<node id="6" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table (2)" position="(551.0, 89.0)" />
+		<node id="7" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table (3)" position="(392.0, 300.0)" />
+		<node id="8" name="Impute" qualified_name="Orange.widgets.data.owimpute.OWImpute" project_name="Orange3" version="" title="Impute (1)" position="(385.0, 426.0)" />
+		<node id="9" name="Save Data" qualified_name="Orange.widgets.data.owsave.OWSave" project_name="Orange3" version="" title="Save Data" position="(642.0, 158.0)" />
+		<node id="10" name="Test and Score" qualified_name="Orange.widgets.evaluate.owtestandscore.OWTestAndScore" project_name="Orange3" version="" title="Test and Score" position="(1119.0, 182.0)" />
+		<node id="11" name="Select Columns" qualified_name="Orange.widgets.data.owselectcolumns.OWSelectAttributes" project_name="Orange3" version="" title="Select Columns" position="(909.0, 104.0)" />
+		<node id="12" name="Logistic Regression" qualified_name="Orange.widgets.model.owlogisticregression.OWLogisticRegression" project_name="Orange3" version="" title="Logistic Regression" position="(874.0, 223.0)" />
+		<node id="13" name="SVM" qualified_name="Orange.widgets.model.owsvm.OWSVM" project_name="Orange3" version="" title="SVM" position="(948.0, 265.0)" />
+		<node id="14" name="CSV File Import" qualified_name="Orange.widgets.data.owcsvimport.OWCSVFileImport" project_name="Orange3" version="" title="CSV File Import (4)" position="(669.0, 70.0)" />
+		<node id="15" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table (4)" position="(486.0, 415.0)" />
+		<node id="16" name="Save Data" qualified_name="Orange.widgets.data.owsave.OWSave" project_name="Orange3" version="" title="Save Data (1)" position="(586.0, 397.0)" />
+		<node id="17" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table (5)" position="(281.0, 453.0)" />
+		<node id="18" name="Impute" qualified_name="Orange.widgets.data.owimpute.OWImpute" project_name="Orange3" version="" title="Impute (2)" position="(326.0, 556.0)" />
+		<node id="19" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table (6)" position="(431.0, 559.0)" />
+		<node id="20" name="Save Data" qualified_name="Orange.widgets.data.owsave.OWSave" project_name="Orange3" version="" title="Save Data (2)" position="(536.0, 555.0)" />
+		<node id="21" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table (7)" position="(300.0, 639.0)" />
+		<node id="22" name="Impute" qualified_name="Orange.widgets.data.owimpute.OWImpute" project_name="Orange3" version="" title="Impute (3)" position="(336.0, 740.0)" />
+		<node id="23" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table (8)" position="(432.0, 733.0)" />
+		<node id="24" name="Save Data" qualified_name="Orange.widgets.data.owsave.OWSave" project_name="Orange3" version="" title="Save Data (3)" position="(547.0, 723.0)" />
+		<node id="25" name="kNN" qualified_name="Orange.widgets.model.owknn.OWKNNLearner" project_name="Orange3" version="" title="kNN" position="(783.0, 286.0)" />
+		<node id="26" name="AdaBoost" qualified_name="Orange.widgets.model.owadaboost.OWAdaBoost" project_name="Orange3" version="" title="AdaBoost" position="(835.0, 331.0)" />
+		<node id="27" name="Random Forest" qualified_name="Orange.widgets.model.owrandomforest.OWRandomForest" project_name="Orange3" version="" title="Random Forest" position="(768.0, 186.0)" />
+		<node id="28" name="Neural Network" qualified_name="Orange.widgets.model.owneuralnetwork.OWNNLearner" project_name="Orange3" version="" title="Neural Network" position="(945.0, 352.0)" />
+		<node id="29" name="Tree" qualified_name="Orange.widgets.model.owtree.OWTreeLearner" project_name="Orange3" version="" title="Tree" position="(666.0, 283.0)" />
+		<node id="30" name="CN2 Rule Induction" qualified_name="Orange.widgets.model.owrules.OWRuleLearner" project_name="Orange3" version="" title="CN2 Rule Induction" position="(718.0, 374.0)" />
+		<node id="31" name="Gradient Boosting" qualified_name="Orange.widgets.model.owgradientboosting.OWGradientBoosting" project_name="Orange3" version="" title="Gradient Boosting" position="(992.0, 423.0)" />
+		<node id="32" name="Stochastic Gradient Descent" qualified_name="Orange.widgets.model.owsgd.OWSGD" project_name="Orange3" version="" title="Stochastic Gradient Descent" position="(779.0, 415.0)" />
+		<node id="33" name="Rank" qualified_name="Orange.widgets.data.owrank.OWRank" project_name="Orange3" version="" title="Rank" position="(1131.0, 51.0)" />
+		<node id="34" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table (1)" position="(839.0, 4.0)" />
+		<node id="35" name="Save Data" qualified_name="Orange.widgets.data.owsave.OWSave" project_name="Orange3" version="" title="Save Data (4)" position="(986.0, 9.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="1" source_node_id="0" sink_node_id="5" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="2" source_node_id="5" sink_node_id="6" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="3" source_node_id="2" sink_node_id="7" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="4" source_node_id="2" sink_node_id="8" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="5" source_node_id="5" sink_node_id="9" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="6" source_node_id="13" sink_node_id="10" source_channel="Learner" sink_channel="Learner" enabled="true" source_channel_id="learner" sink_channel_id="learner" />
+		<link id="7" source_node_id="12" sink_node_id="10" source_channel="Learner" sink_channel="Learner" enabled="true" source_channel_id="learner" sink_channel_id="learner" />
+		<link id="8" source_node_id="8" sink_node_id="15" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="9" source_node_id="15" sink_node_id="16" source_channel="Selected Data" sink_channel="Data" enabled="true" source_channel_id="selected_data" sink_channel_id="data" />
+		<link id="10" source_node_id="3" sink_node_id="17" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="11" source_node_id="3" sink_node_id="18" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="12" source_node_id="18" sink_node_id="19" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="13" source_node_id="19" sink_node_id="20" source_channel="Selected Data" sink_channel="Data" enabled="true" source_channel_id="selected_data" sink_channel_id="data" />
+		<link id="14" source_node_id="4" sink_node_id="21" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="15" source_node_id="4" sink_node_id="22" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="16" source_node_id="22" sink_node_id="23" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="17" source_node_id="23" sink_node_id="24" source_channel="Selected Data" sink_channel="Data" enabled="true" source_channel_id="selected_data" sink_channel_id="data" />
+		<link id="18" source_node_id="25" sink_node_id="10" source_channel="Learner" sink_channel="Learner" enabled="true" source_channel_id="learner" sink_channel_id="learner" />
+		<link id="19" source_node_id="26" sink_node_id="10" source_channel="Learner" sink_channel="Learner" enabled="true" source_channel_id="learner" sink_channel_id="learner" />
+		<link id="20" source_node_id="27" sink_node_id="10" source_channel="Learner" sink_channel="Learner" enabled="true" source_channel_id="learner" sink_channel_id="learner" />
+		<link id="21" source_node_id="28" sink_node_id="10" source_channel="Learner" sink_channel="Learner" enabled="true" source_channel_id="learner" sink_channel_id="learner" />
+		<link id="22" source_node_id="29" sink_node_id="10" source_channel="Learner" sink_channel="Learner" enabled="true" source_channel_id="learner" sink_channel_id="learner" />
+		<link id="23" source_node_id="30" sink_node_id="10" source_channel="Learner" sink_channel="Learner" enabled="true" source_channel_id="learner" sink_channel_id="learner" />
+		<link id="24" source_node_id="31" sink_node_id="10" source_channel="Learner" sink_channel="Learner" enabled="true" source_channel_id="learner" sink_channel_id="learner" />
+		<link id="25" source_node_id="32" sink_node_id="10" source_channel="Learner" sink_channel="Learner" enabled="true" source_channel_id="learner" sink_channel_id="learner" />
+		<link id="26" source_node_id="11" sink_node_id="33" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="27" source_node_id="11" sink_node_id="10" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="train_data" />
+		<link id="28" source_node_id="14" sink_node_id="11" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="29" source_node_id="14" sink_node_id="34" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="literal">{'_session_items': [], '_session_items_v2': [({'type': 'AbsPath', 'path': 'D:/new researches/Heart disease/NEWDB/DB/concatenatedDB.txt'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 13, 'value': 'Auto'}, {'start': 13, 'stop': 14, 'value': 'Categorical'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'D:/new researches/Heart disease/datasets/DB2/heart+disease/processed.vadata.txt'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 13, 'value': 'Auto'}, {'start': 13, 'stop': 14, 'value': 'Categorical'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'D:/new researches/Heart disease/datasets/DB2/heart+disease/processed.switzerlanddata.txt'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 13, 'value': 'Auto'}, {'start': 13, 'stop': 14, 'value': 'Categorical'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'D:/new researches/Heart disease/datasets/DB2/heart+disease/processed.hungariandata.txt'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 13, 'value': 'Auto'}, {'start': 13, 'stop': 14, 'value': 'Categorical'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'D:/new researches/Heart disease/datasets/DB2/heart+disease/processed.clevelanddata.txt'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 13, 'value': 'Auto'}, {'start': 13, 'stop': 14, 'value': 'Categorical'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'D:/new researches/Heart disease/NEWDB/DB/processed.clevelanddata.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 13, 'value': 'Auto'}, {'start': 13, 'stop': 14, 'value': 'Categorical'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'D:/new researches/Heart disease/DB2/heart+disease/processed.clevelanddata.txt'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 13, 'value': 'Auto'}, {'start': 13, 'stop': 14, 'value': 'Categorical'}], 'rowspec': [], 'decimal_separator': '.', 'group_separator': ''})], 'compatibility_mode': False, 'controlAreaVisible': True, 'dialog_state': {'directory': 'D:/new researches/Heart disease/NEWDB/DB', 'filter': 'Text - comma separated (*.csv, *)'}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02t\x00\x00\x00\xf8\x00\x00\x03\x8b\x00\x00\x02J\x00\x00\x02u\x00\x00\x01\x16\x00\x00\x03\x8a\x00\x00\x02I\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x02u\x00\x00\x01\x16\x00\x00\x03\x8a\x00\x00\x02I', '__version__': 3}</properties>
+		<properties node_id="1" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\xff\xff\xff\xff\xff\xff\xff\xf9\x00\x00\x06\x00\x00\x00\x03`\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05\xff\x00\x00\x03_\x00\x00\x00\x00\x02\x00\x00\x00\x06\x00\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05\xff\x00\x00\x03_', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="2" format="literal">{'_session_items': [], '_session_items_v2': [({'type': 'AbsPath', 'path': 'D:/new researches/Heart disease/datasets/DB2/heart+disease/processed.hungariandata.txt'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 10, 'value': 'Auto'}, {'start': 10, 'stop': 13, 'value': 'Skip'}, {'start': 13, 'stop': 14, 'value': 'Categorical'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'D:/new researches/Heart disease/DB2/heart+disease/processed.hungariandata.txt'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 10, 'value': 'Auto'}, {'start': 10, 'stop': 13, 'value': 'Skip'}, {'start': 13, 'stop': 14, 'value': 'Categorical'}], 'rowspec': [], 'decimal_separator': '.', 'group_separator': ''})], 'compatibility_mode': False, 'controlAreaVisible': True, 'dialog_state': {'directory': 'D:/new researches/Heart disease/datasets/DB2/heart+disease', 'filter': 'Text - comma separated (*.csv, *)'}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02t\x00\x00\x00\xf8\x00\x00\x03\x8b\x00\x00\x02J\x00\x00\x02u\x00\x00\x01\x16\x00\x00\x03\x8a\x00\x00\x02I\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x02u\x00\x00\x01\x16\x00\x00\x03\x8a\x00\x00\x02I', '__version__': 3}</properties>
+		<properties node_id="3" format="literal">{'_session_items': [], '_session_items_v2': [({'type': 'AbsPath', 'path': 'D:/new researches/Heart disease/datasets/DB2/heart+disease/processed.switzerlanddata.txt'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 11, 'value': 'Auto'}, {'start': 11, 'stop': 12, 'value': 'Skip'}, {'start': 12, 'stop': 13, 'value': 'Auto'}, {'start': 13, 'stop': 14, 'value': 'Categorical'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'D:/new researches/Heart disease/DB2/heart+disease/processed.switzerlanddata.txt'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 13, 'value': 'Auto'}, {'start': 13, 'stop': 14, 'value': 'Categorical'}], 'rowspec': [], 'decimal_separator': '.', 'group_separator': ''})], 'compatibility_mode': False, 'controlAreaVisible': True, 'dialog_state': {'directory': 'D:/new researches/Heart disease/datasets/DB2/heart+disease', 'filter': 'Text - comma separated (*.csv, *)'}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02t\x00\x00\x00\xf8\x00\x00\x03\x8b\x00\x00\x02J\x00\x00\x02u\x00\x00\x01\x16\x00\x00\x03\x8a\x00\x00\x02I\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x02u\x00\x00\x01\x16\x00\x00\x03\x8a\x00\x00\x02I', '__version__': 3}</properties>
+		<properties node_id="4" format="literal">{'_session_items': [], '_session_items_v2': [({'type': 'AbsPath', 'path': 'D:/new researches/Heart disease/datasets/DB2/heart+disease/processed.vadata.txt'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 11, 'value': 'Auto'}, {'start': 11, 'stop': 13, 'value': 'Skip'}, {'start': 13, 'stop': 14, 'value': 'Categorical'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'D:/new researches/Heart disease/DB2/heart+disease/processed.switzerlanddata.txt'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 13, 'value': 'Auto'}, {'start': 13, 'stop': 14, 'value': 'Categorical'}], 'rowspec': [], 'decimal_separator': '.', 'group_separator': ''})], 'compatibility_mode': False, 'controlAreaVisible': True, 'dialog_state': {'directory': 'D:/new researches/Heart disease/datasets/DB2/heart+disease', 'filter': 'Text - comma separated (*.csv, *)'}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02t\x00\x00\x00\xf8\x00\x00\x03\x8b\x00\x00\x02J\x00\x00\x02u\x00\x00\x01\x16\x00\x00\x03\x8a\x00\x00\x02I\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x02u\x00\x00\x01\x16\x00\x00\x03\x8a\x00\x00\x02I', '__version__': 3}</properties>
+		<properties node_id="5" format="pickle">gASVyAMAAAAAAAB9lCiMFV9kZWZhdWx0X21ldGhvZF9pbmRleJRLAowKYXV0b2NvbW1pdJSIjBJj
+b250cm9sQXJlYVZpc2libGWUiIwVZGVmYXVsdF9udW1lcmljX3ZhbHVllEcAAAAAAAAAAIwMZGVm
+YXVsdF90aW1llEsAjBNzYXZlZFdpZGdldEdlb21ldHJ5lENCAdnQywADAAAAAAIOAAAAtAAAA/IA
+AAKPAAACDwAAANIAAAPxAAACjgAAAAAAAAAABgAAAAIPAAAA0gAAA/EAAAKOlIwLX192ZXJzaW9u
+X1+USwGMEGNvbnRleHRfc2V0dGluZ3OUXZQojBVvcmFuZ2V3aWRnZXQuc2V0dGluZ3OUjAdDb250
+ZXh0lJOUKYGUfZQojAZ2YWx1ZXOUfZQojBpfdmFyaWFibGVfaW1wdXRhdGlvbl9zdGF0ZZR9lEr8
+////hpRoCEsBdYwKYXR0cmlidXRlc5R9lCiMA2ZyMZRLAowDZnIylEsBjANmcjOUSwKMA2ZyNJRL
+AowDZnI1lEsCjANmcjaUSwKMA2ZyN5RLAowDZnI4lEsCjANmcjmUSwKMBGZyMTCUSwKMBGZyMTGU
+SwKMBGZyMTKUSwKMBGZyMTOUSwKMBWNsYXNzlEsBdYwFbWV0YXOUfZR1YmgNKYGUfZQoaBB9lCho
+En2USvz///+GlGgISwF1aBV9lCiMA2ZyMZRLAowDZnIylEsBjANmcjOUSwKMA2ZyNJRLAowDZnI1
+lEsBjANmcjaUSwKMA2ZyN5RLAowDZnI4lEsCjANmcjmUSwKMBGZyMTCUSwKMBGZyMTGUSwKMBGZy
+MTKUSwKMBGZyMTOUSwKMBWNsYXNzlEsBdWglfZR1YmgNKYGUfZQoaBB9lChoEn2USvz///+GlGgI
+SwF1aBV9lCiMA2ZyNZRLAowDZnI4lEsCjANmcjGUSwKMA2ZyMpRLAYwDZnIzlEsCjANmcjSUSwKM
+A2ZyNpRLAYwDZnI3lEsCjANmcjmUSwGMBGZyMTCUSwKMBGZyMTGUSwKMBGZyMTKUSwKMBGZyMTOU
+SwKMBWNsYXNzlEsBdWglfZR1YmgNKYGUfZQoaBB9lChoEn2USvz///+GlGgISwF1aBV9lCiMA1gu
+MJRLAYwDWC4xlEsBjANYLjKUSwGMA1guM5RLAYwDWC41lEsBjANYLjaUSwGMA1guOJRLAYwDWC45
+lEsBjARYLjEwlEsBjARYLjExlEsBjARYLjEylEsBjARYLjEzlEsBdWglfZQojANYLjSUSwOMA1gu
+N5RLA3V1YmV1Lg==
+</properties>
+		<properties node_id="6" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01o\x00\x00\x00\x98\x00\x00\x04\x90\x00\x00\x02\xaa\x00\x00\x01p\x00\x00\x00\xb6\x00\x00\x04\x8f\x00\x00\x02\xa9\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x01p\x00\x00\x00\xb6\x00\x00\x04\x8f\x00\x00\x02\xa9', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="7" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01o\x00\x00\x00\x98\x00\x00\x04\x90\x00\x00\x02\xaa\x00\x00\x01p\x00\x00\x00\xb6\x00\x00\x04\x8f\x00\x00\x02\xa9\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x01p\x00\x00\x00\xb6\x00\x00\x04\x8f\x00\x00\x02\xa9', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="8" format="pickle">gASV8wIAAAAAAAB9lCiMFV9kZWZhdWx0X21ldGhvZF9pbmRleJRLAowKYXV0b2NvbW1pdJSIjBJj
+b250cm9sQXJlYVZpc2libGWUiIwVZGVmYXVsdF9udW1lcmljX3ZhbHVllEcAAAAAAAAAAIwMZGVm
+YXVsdF90aW1llEsAjBNzYXZlZFdpZGdldEdlb21ldHJ5lENCAdnQywADAAAAAAIOAAAAtAAAA/IA
+AAKPAAACDwAAANIAAAPxAAACjgAAAAAAAAAABgAAAAIPAAAA0gAAA/EAAAKOlIwLX192ZXJzaW9u
+X1+USwGMEGNvbnRleHRfc2V0dGluZ3OUXZQojBVvcmFuZ2V3aWRnZXQuc2V0dGluZ3OUjAdDb250
+ZXh0lJOUKYGUfZQojAZ2YWx1ZXOUfZQojBpfdmFyaWFibGVfaW1wdXRhdGlvbl9zdGF0ZZR9lEr8
+////hpRoCEsBdYwKYXR0cmlidXRlc5R9lCiMA2ZyMZRLAowDZnIylEsBjANmcjOUSwKMA2ZyNJRL
+AowDZnI1lEsCjANmcjaUSwKMA2ZyN5RLAowDZnI4lEsCjANmcjmUSwKMBGZyMTCUSwKMBWNsYXNz
+lEsBdYwFbWV0YXOUfZR1YmgNKYGUfZQoaBB9lChoEn2USvz///+GlGgISwF1aBV9lCiMA1guMJRL
+AYwDWC4xlEsBjANYLjKUSwGMA1guM5RLAYwDWC41lEsBjANYLjaUSwGMA1guOJRLAYwDWC45lEsB
+jARYLjEzlEsBdWgifZQojANYLjSUSwOMA1guN5RLA3V1YmgNKYGUfZQoaBB9lChoEn2USvz///+G
+lGgISwF1aBV9lCiMA1guMJRLAYwDWC4xlEsBjANYLjKUSwGMA1guM5RLAYwDWC41lEsBjANYLjaU
+SwGMA1guOJRLAYwDWC45lEsBjARYLjEwlEsBjARYLjExlEsBjARYLjEylEsBjARYLjEzlEsBdWgi
+fZQojANYLjSUSwOMA1guN5RLA3V1YmV1Lg==
+</properties>
+		<properties node_id="9" format="literal">{'add_type_annotations': True, 'auto_save': False, 'controlAreaVisible': True, 'filter': 'Comma-separated values (*.csv)', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\x9c\x00\x00\x01S\x00\x00\x03\xb4\x00\x00\x01\xef\x00\x00\x02\x9d\x00\x00\x01q\x00\x00\x03\xb3\x00\x00\x01\xee\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x02\x9d\x00\x00\x01q\x00\x00\x03\xb3\x00\x00\x01\xee', 'stored_name': 'processed.clevelanddata.csv', 'stored_path': 'D:/new researches/Heart disease/datasets', '__version__': 3}</properties>
+		<properties node_id="10" format="pickle">gASVjAcAAAAAAAB9lCiMFGNvbXBhcmlzb25fY3JpdGVyaW9ulEsAjBJjb250cm9sQXJlYVZpc2li
+bGWUiIwNY3Zfc3RyYXRpZmllZJSIjAduX2ZvbGRzlEsCjAluX3JlcGVhdHOUSwOMCnJlc2FtcGxp
+bmeUSwCMBHJvcGWURz+5mZmZmZmajAtzYW1wbGVfc2l6ZZRLCYwTc2F2ZWRXaWRnZXRHZW9tZXRy
+eZRDQgHZ0MsAAwAA//////////kAAAYAAAADYAAAAAAAAAAXAAAF/wAAA18AAAAAAgAAAAYAAAAA
+AAAAABcAAAX/AAADX5SMEnNodWZmbGVfc3RyYXRpZmllZJSIjAh1c2Vfcm9wZZSJjAtzY29yZV90
+YWJsZZR9lIwQc2hvd19zY29yZV9oaW50c5R9lCiMBk1vZGVsX5SIjAZUcmFpbl+UiYwFVGVzdF+U
+iYwCQ0GUiIwXUHJlY2lzaW9uUmVjYWxsRlN1cHBvcnSUiIwLVGFyZ2V0U2NvcmWUiIwJUHJlY2lz
+aW9ulIiMBlJlY2FsbJSIjAJGMZSIjANBVUOUiIwHTG9nTG9zc5SIjAtTcGVjaWZpY2l0eZSIjBdN
+YXR0aGV3c0NvcnJDb2VmZmljaWVudJSIjANNU0WUiIwEUk1TRZSIjANNQUWUiIwETUFQRZSIjAJS
+MpSIjAZDVlJNU0WUiYwPQ2x1c3RlcmluZ1Njb3JllIiMClNpbGhvdWV0dGWUiIwXQWRqdXN0ZWRN
+dXR1YWxJbmZvU2NvcmWUiHVzjAtfX3ZlcnNpb25fX5RLBIwQY29udGV4dF9zZXR0aW5nc5RdlCiM
+FW9yYW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSUk5QpgZR9lCiMBnZhbHVlc5R9lCiMD2Ns
+YXNzX3NlbGVjdGlvbpSMIShOb25lLCBzaG93IGF2ZXJhZ2Ugb3ZlciBjbGFzc2VzKZRK/////4aU
+jAxmb2xkX2ZlYXR1cmWUTkr+////hpSMFWZvbGRfZmVhdHVyZV9zZWxlY3RlZJSJSv7///+GlGgN
+fZRoJ0sEdYwKYXR0cmlidXRlc5QojANmcjWUSwKGlIwDZnI4lEsChpSMA2ZyMZRLAoaUjANmcjKU
+SwGGlIwDZnIzlEsChpSMA2ZyNJRLAoaUjANmcjaUSwGGlIwDZnI3lEsChpSMA2ZyOZRLAYaUjARm
+cjEwlEsChpR0lIwFbWV0YXOUKYwKY2xhc3NfdmFyc5SMBWNsYXNzlEsBhpSFlHViaCwpgZR9lCho
+L32UKGgxaDJK/////4aUaDROSv7///+GlGg2iUr+////hpRoDX2UaCdLBHVoOSiMA2ZyNZRLAoaU
+jANmcjiUSwKGlIwDZnIxlEsChpSMA2ZyMpRLAYaUjANmcjOUSwKGlIwDZnI0lEsChpSMA2ZyNpRL
+AYaUjANmcjeUSwKGlIwDZnI5lEsBhpSMBGZyMTCUSwKGlIwEZnIxMZRLAoaUjARmcjEylEsChpSM
+BGZyMTOUSwKGlHSUaE8paFCMBWNsYXNzlEsBhpSFlHViaCwpgZR9lChoL32UKGgxaDJK/////4aU
+aDROSv7///+GlGg2iUr+////hpRoDX2UaCdLBHVoOSiMA2ZyMZRLAYaUjANmcjKUSwGGlIwDZnIz
+lEsBhpSMA2ZyNJRLAYaUjANmcjaUSwGGlIwDZnI3lEsBhpSMA2ZyOZRLAYaUjARmcjEwlEsBhpR0
+lGhPjANmcjWUSwOGlIwDZnI4lEsDhpSGlGhQjAVjbGFzc5RLAYaUhZR1YmgsKYGUfZQoaC99lCho
+MWgySv////+GlGg0Tkr+////hpRoNolK/v///4aUaA19lGgnSwR1aDkojANmcjGUSwGGlIwDZnIy
+lEsBhpSMA2ZyM5RLAYaUjANmcjSUSwGGlIwDZnI2lEsBhpSMA2ZyN5RLAYaUjANmcjmUSwGGlIwE
+ZnIxMJRLAYaUjARmcjExlEsBhpSMBGZyMTKUSwGGlIwEZnIxM5RLAYaUdJRoTyloUIwFY2xhc3OU
+SwGGlIWUdWJoLCmBlH2UKGgvfZQoaDFoMkr/////hpRoNE5K/v///4aUaDaJSv7///+GlGgNfZRo
+J0sEdWg5KIwDZnI1lEsChpSMA2ZyOJRLAoaUjANmcjGUSwKGlIwDZnIylEsBhpSMA2ZyM5RLAoaU
+jANmcjSUSwKGlIwDZnI2lEsChpSMA2ZyN5RLAoaUjANmcjmUSwKGlIwEZnIxMJRLAoaUdJRoTylo
+UIwFY2xhc3OUSwGGlIWUdWJoLCmBlH2UKGgvfZQoaDFoMkr/////hpRoNE5K/v///4aUaDaJSv7/
+//+GlGgNfZRoJ0sEdWg5KIwDZnI1lEsChpSMA2ZyOJRLAoaUjANmcjGUSwKGlIwDZnIylEsBhpSM
+A2ZyM5RLAoaUjANmcjSUSwKGlIwDZnI2lEsBhpSMA2ZyN5RLAoaUjANmcjmUSwGGlIwEZnIxMJRL
+AoaUjARmcjExlEsChpSMBGZyMTKUSwKGlIwEZnIxM5RLAoaUdJRoTyloUIwFY2xhc3OUSwKGlIWU
+dWJldS4=
+</properties>
+		<properties node_id="11" format="pickle">gASVRAoAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNpZ25v
+cmVfbmV3X2ZlYXR1cmVzlImME3NhdmVkV2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAAAAAdMAAABm
+AAAELAAAAtwAAAHUAAAAhAAABCsAAALbAAAAAAAAAAAGAAAAAdQAAACEAAAEKwAAAtuUjBJ1c2Vf
+aW5wdXRfZmVhdHVyZXOUiYwLX192ZXJzaW9uX1+USwGMEGNvbnRleHRfc2V0dGluZ3OUXZQojBVv
+cmFuZ2V3aWRnZXQuc2V0dGluZ3OUjAdDb250ZXh0lJOUKYGUfZQojAZ2YWx1ZXOUfZQojBFkb21h
+aW5fcm9sZV9oaW50c5R9lCiMA2ZyNZRLAoaUjAlhdHRyaWJ1dGWUSwCGlIwDZnI4lEsChpRoFUsB
+hpSMA2ZyMZRLAoaUaBVLAoaUjANmcjKUSwGGlGgVSwOGlIwDZnIzlEsChpRoFUsEhpSMA2ZyNJRL
+AoaUaBVLBYaUjANmcjaUSwGGlGgVSwaGlIwDZnI3lEsChpRoFUsHhpSMA2ZyOZRLAYaUaBVLCIaU
+jARmcjEwlEsChpRoFUsJhpSMBWNsYXNzlEsBhpSMBWNsYXNzlEsAhpR1Sv7///+GlGgHSwF1jAph
+dHRyaWJ1dGVzlH2UKIwDZnIxlEsCjANmcjKUSwGMA2ZyM5RLAowDZnI0lEsCjANmcjWUSwKMA2Zy
+NpRLAYwDZnI3lEsCjANmcjiUSwKMA2ZyOZRLAYwEZnIxMJRLAowFY2xhc3OUSwF1jAVtZXRhc5R9
+lHViaAwpgZR9lChoD32UKGgRfZQojANmcjWUSwKGlGgVSwCGlIwDZnI4lEsChpRoFUsBhpSMA2Zy
+MZRLAoaUaBVLAoaUjANmcjKUSwGGlGgVSwOGlIwDZnIzlEsChpRoFUsEhpSMA2ZyNJRLAoaUaBVL
+BYaUjANmcjaUSwGGlGgVSwaGlIwDZnI3lEsChpRoFUsHhpSMA2ZyOZRLAYaUaBVLCIaUjARmcjEw
+lEsChpRoFUsJhpSMBGZyMTGUSwKGlGgVSwqGlIwEZnIxMpRLAoaUaBVLC4aUjARmcjEzlEsChpRo
+FUsMhpSMBWNsYXNzlEsBhpRoNEsAhpR1Sv7///+GlGgHSwF1aDd9lCiMA2ZyNZRLAowDZnI4lEsC
+jANmcjGUSwKMA2ZyMpRLAYwDZnIzlEsCjANmcjSUSwKMA2ZyNpRLAYwDZnI3lEsCjANmcjmUSwGM
+BGZyMTCUSwKMBGZyMTGUSwKMBGZyMTKUSwKMBGZyMTOUSwKMBWNsYXNzlEsBdWhEfZR1YmgMKYGU
+fZQoaA99lChoEX2UKIwDZnI1lEsChpRoFUsAhpSMA2ZyOJRLAoaUaBVLAYaUjANmcjGUSwKGlGgV
+SwKGlIwDZnIylEsBhpRoFUsDhpSMA2ZyM5RLAoaUaBVLBIaUjANmcjSUSwKGlGgVSwWGlIwDZnI2
+lEsChpRoFUsGhpSMA2ZyN5RLAoaUaBVLB4aUjANmcjmUSwKGlGgVSwiGlIwEZnIxMJRLAoaUaBVL
+CYaUjAVjbGFzc5RLAYaUaDRLAIaUdUr+////hpRoB0sBdWg3fZQoaI9LAmiSSwFolUsCaJhLAmiJ
+SwJom0sCaJ5LAmiMSwJooUsCaKRLAminSwF1aER9lHViaAwpgZR9lChoD32UKGgRfZQojANmcjGU
+SwGGlGgVSwCGlIwDZnIylEsBhpRoFUsBhpSMA2ZyM5RLAYaUaBVLAoaUjANmcjSUSwGGlGgVSwOG
+lIwDZnI2lEsBhpRoFUsEhpSMA2ZyN5RLAYaUaBVLBYaUjANmcjmUSwGGlGgVSwaGlIwEZnIxMJRL
+AYaUaBVLB4aUjAVjbGFzc5RLAYaUaDRLAIaUjANmcjWUSwOGlIwEbWV0YZRLAIaUjANmcjiUSwOG
+lGjOSwGGlHVK/v///4aUaAdLAXVoN32UKGixSwFotEsBaLdLAWi6SwFovUsBaMBLAWjDSwFoxksB
+aMlLAXVoRH2UKGjMSwNo0EsDdXViaAwpgZR9lChoD32UKGgRfZQojANmcjGUSwGGlGgVSwCGlIwD
+ZnIylEsBhpRoFUsBhpSMA2ZyM5RLAYaUaBVLAoaUjANmcjSUSwGGlGgVSwOGlIwDZnI2lEsBhpRo
+FUsEhpSMA2ZyN5RLAYaUaBVLBYaUjANmcjmUSwGGlGgVSwaGlIwEZnIxMJRLAYaUaBVLB4aUjARm
+cjExlEsBhpRoFUsIhpSMBGZyMTKUSwGGlGgVSwmGlIwEZnIxM5RLAYaUaBVLCoaUjAVjbGFzc5RL
+AYaUaBVLC4aUjANmcjWUSwOGlGjOSwCGlIwDZnI4lEsDhpRozksBhpR1Sv7///+GlGgHSwF1aDd9
+lCho2ksBaN1LAWjgSwFo40sBaOZLAWjpSwFo7EsBaO9LAWjySwFo9UsBaPhLAWj7SwF1aER9lCho
+/ksDagEBAABLA3V1YmgMKYGUfZQoaA99lChoEX2UKIwDZnI1lEsChpRoFUsAhpSMA2ZyOJRLAoaU
+aBVLAYaUjANmcjGUSwKGlGgVSwKGlIwDZnIylEsBhpRoFUsDhpSMA2ZyM5RLAoaUaBVLBIaUjANm
+cjSUSwKGlGgVSwWGlIwDZnI2lEsBhpRoFUsGhpSMA2ZyN5RLAoaUaBVLB4aUjANmcjmUSwGGlGgV
+SwiGlIwEZnIxMJRLAoaUaBVLCYaUjARmcjExlEsChpRoFUsKhpSMBGZyMTKUSwKGlGgVSwuGlIwE
+ZnIxM5RLAoaUaBVLDIaUjAVjbGFzc5RLAoaUaDRLAIaUdUr+////hpRoB0sBdWg3fZQoagsBAABL
+AmoOAQAASwJqEQEAAEsCahQBAABLAWoXAQAASwJqGgEAAEsCah0BAABLAWogAQAASwJqIwEAAEsB
+aiYBAABLAmopAQAASwJqLAEAAEsCai8BAABLAmoyAQAASwJ1aER9lHViaAwpgZR9lChoD32UKGgR
+fZQojANYLjCUSwGGlGgVSwCGlIwDWC4xlEsBhpRoFUsBhpSMA1guMpRLAYaUaBVLAoaUjANYLjOU
+SwGGlGgVSwOGlIwDWC41lEsBhpRoFUsEhpSMA1guNpRLAYaUaBVLBYaUjANYLjiUSwGGlGgVSwaG
+lIwDWC45lEsBhpRoFUsHhpSMBFguMTCUSwGGlGgVSwiGlIwEWC4xMZRLAYaUaBVLCYaUjARYLjEy
+lEsBhpRoFUsKhpSMBFguMTOUSwGGlGgVSwuGlIwDWC40lEsDhpRozksAhpSMA1guN5RLA4aUaM5L
+AYaUdUr+////hpRoB0sBdWg3fZQoajwBAABLAWo/AQAASwFqQgEAAEsBakUBAABLAWpIAQAASwFq
+SwEAAEsBak4BAABLAWpRAQAASwFqVAEAAEsBalcBAABLAWpaAQAASwFqXQEAAEsBdWhEfZQoamAB
+AABLA2pjAQAASwN1dWJldS4=
+</properties>
+		<properties node_id="12" format="literal">{'C_index': 61, 'auto_apply': True, 'class_weight': False, 'controlAreaVisible': True, 'learner_name': '', 'penalty_type': 1, 'savedWidgetGeometry': None, '__version__': 2}</properties>
+		<properties node_id="13" format="literal">{'C': 1.0, 'auto_apply': True, 'coef0': 1.0, 'controlAreaVisible': True, 'degree': 3, 'epsilon': 0.1, 'gamma': 0.0, 'kernel_type': 2, 'learner_name': '', 'limit_iter': True, 'max_iter': 100, 'nu': 0.5, 'nu_C': 1.0, 'savedWidgetGeometry': None, 'svm_type': 0, 'tol': 0.001, '__version__': 1}</properties>
+		<properties node_id="14" format="literal">{'_session_items': [], '_session_items_v2': [({'type': 'AbsPath', 'path': 'D:/new researches/Heart disease/results binary classification/DB2labels/imputed_concatenated_data_2labels.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 10, 'value': 'Auto'}, {'start': 10, 'stop': 13, 'value': 'Skip'}, {'start': 13, 'stop': 14, 'value': 'Categorical'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'D:/new researches/Heart disease/NEWDB/removerowandcolumn/processed.clevelanddata2.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 13, 'value': 'Auto'}, {'start': 13, 'stop': 14, 'value': 'Categorical'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'D:/new researches/Heart disease/NEWDB/DB/imputed_concatenated_data.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 13, 'value': 'Auto'}, {'start': 13, 'stop': 14, 'value': 'Categorical'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'D:/new researches/Heart disease/datasets/processed.hungariandata.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 10, 'value': 'Auto'}, {'start': 10, 'stop': 11, 'value': 'Categorical'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'D:/new researches/Heart disease/datasets/processed.clevelanddata.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 13, 'value': 'Auto'}, {'start': 13, 'stop': 14, 'value': 'Categorical'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''})], 'compatibility_mode': False, 'controlAreaVisible': True, 'dialog_state': {'directory': 'D:/new researches/Heart disease/results binary classification/DB2labels', 'filter': 'Text - comma separated (*.csv, *)'}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02t\x00\x00\x00\xf8\x00\x00\x03\x8b\x00\x00\x02J\x00\x00\x02u\x00\x00\x01\x16\x00\x00\x03\x8a\x00\x00\x02I\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x02u\x00\x00\x01\x16\x00\x00\x03\x8a\x00\x00\x02I', '__version__': 3}</properties>
+		<properties node_id="15" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01o\x00\x00\x00\x98\x00\x00\x04\x90\x00\x00\x02\xaa\x00\x00\x01p\x00\x00\x00\xb6\x00\x00\x04\x8f\x00\x00\x02\xa9\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x01p\x00\x00\x00\xb6\x00\x00\x04\x8f\x00\x00\x02\xa9', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="16" format="literal">{'add_type_annotations': True, 'auto_save': False, 'controlAreaVisible': True, 'filter': 'Comma-separated values (*.csv)', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\x9c\x00\x00\x01S\x00\x00\x03\xb7\x00\x00\x01\xef\x00\x00\x02\x9d\x00\x00\x01q\x00\x00\x03\xb6\x00\x00\x01\xee\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x02\x9d\x00\x00\x01q\x00\x00\x03\xb6\x00\x00\x01\xee', 'stored_name': 'processed.hungariandata.csv', 'stored_path': 'D:/new researches/Heart disease/datasets', '__version__': 3}</properties>
+		<properties node_id="17" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01o\x00\x00\x00\x98\x00\x00\x04\x90\x00\x00\x02\xaa\x00\x00\x01p\x00\x00\x00\xb6\x00\x00\x04\x8f\x00\x00\x02\xa9\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x01p\x00\x00\x00\xb6\x00\x00\x04\x8f\x00\x00\x02\xa9', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="18" format="pickle">gASV4QEAAAAAAAB9lCiMFV9kZWZhdWx0X21ldGhvZF9pbmRleJRLAowKYXV0b2NvbW1pdJSIjBJj
+b250cm9sQXJlYVZpc2libGWUiIwVZGVmYXVsdF9udW1lcmljX3ZhbHVllEcAAAAAAAAAAIwMZGVm
+YXVsdF90aW1llEsAjBNzYXZlZFdpZGdldEdlb21ldHJ5lENCAdnQywADAAAAAAIOAAAAtAAAA/IA
+AAKPAAACDwAAANIAAAPxAAACjgAAAAAAAAAABgAAAAIPAAAA0gAAA/EAAAKOlIwLX192ZXJzaW9u
+X1+USwGMEGNvbnRleHRfc2V0dGluZ3OUXZSMFW9yYW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRl
+eHSUk5QpgZR9lCiMBnZhbHVlc5R9lCiMGl92YXJpYWJsZV9pbXB1dGF0aW9uX3N0YXRllH2USvz/
+//+GlGgISwF1jAphdHRyaWJ1dGVzlH2UKIwDZnIxlEsCjANmcjKUSwGMA2ZyM5RLAowDZnI0lEsC
+jANmcjWUSwGMA2ZyNpRLAowDZnI3lEsCjANmcjiUSwKMA2ZyOZRLAowEZnIxMJRLAowEZnIxMZRL
+AowEZnIxM5RLAowFY2xhc3OUSwF1jAVtZXRhc5R9lHViYXUu
+</properties>
+		<properties node_id="19" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01o\x00\x00\x00\x98\x00\x00\x04\x90\x00\x00\x02\xaa\x00\x00\x01p\x00\x00\x00\xb6\x00\x00\x04\x8f\x00\x00\x02\xa9\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x01p\x00\x00\x00\xb6\x00\x00\x04\x8f\x00\x00\x02\xa9', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="20" format="literal">{'add_type_annotations': True, 'auto_save': False, 'controlAreaVisible': True, 'filter': 'Comma-separated values (*.csv)', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\x9c\x00\x00\x01S\x00\x00\x03\xbc\x00\x00\x01\xef\x00\x00\x02\x9d\x00\x00\x01q\x00\x00\x03\xbb\x00\x00\x01\xee\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x02\x9d\x00\x00\x01q\x00\x00\x03\xbb\x00\x00\x01\xee', 'stored_name': 'processed.switzerlanddata.csv', 'stored_path': 'D:/new researches/Heart disease/datasets', '__version__': 3}</properties>
+		<properties node_id="21" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01o\x00\x00\x00\x98\x00\x00\x04\x90\x00\x00\x02\xaa\x00\x00\x01p\x00\x00\x00\xb6\x00\x00\x04\x8f\x00\x00\x02\xa9\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x01p\x00\x00\x00\xb6\x00\x00\x04\x8f\x00\x00\x02\xa9', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="22" format="pickle">gASV2AEAAAAAAAB9lCiMFV9kZWZhdWx0X21ldGhvZF9pbmRleJRLAowKYXV0b2NvbW1pdJSIjBJj
+b250cm9sQXJlYVZpc2libGWUiIwVZGVmYXVsdF9udW1lcmljX3ZhbHVllEcAAAAAAAAAAIwMZGVm
+YXVsdF90aW1llEsAjBNzYXZlZFdpZGdldEdlb21ldHJ5lENCAdnQywADAAAAAAIOAAAAtAAAA/IA
+AAKPAAACDwAAANIAAAPxAAACjgAAAAAAAAAABgAAAAIPAAAA0gAAA/EAAAKOlIwLX192ZXJzaW9u
+X1+USwGMEGNvbnRleHRfc2V0dGluZ3OUXZSMFW9yYW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRl
+eHSUk5QpgZR9lCiMBnZhbHVlc5R9lCiMGl92YXJpYWJsZV9pbXB1dGF0aW9uX3N0YXRllH2USvz/
+//+GlGgISwF1jAphdHRyaWJ1dGVzlH2UKIwDZnIxlEsCjANmcjKUSwGMA2ZyM5RLAowDZnI0lEsC
+jANmcjWUSwKMA2ZyNpRLAowDZnI3lEsCjANmcjiUSwKMA2ZyOZRLAowEZnIxMJRLAowEZnIxMZRL
+AowFY2xhc3OUSwF1jAVtZXRhc5R9lHViYXUu
+</properties>
+		<properties node_id="23" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01o\x00\x00\x00\x98\x00\x00\x04\x90\x00\x00\x02\xaa\x00\x00\x01p\x00\x00\x00\xb6\x00\x00\x04\x8f\x00\x00\x02\xa9\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x01p\x00\x00\x00\xb6\x00\x00\x04\x8f\x00\x00\x02\xa9', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="24" format="literal">{'add_type_annotations': True, 'auto_save': False, 'controlAreaVisible': True, 'filter': 'Comma-separated values (*.csv)', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\x9c\x00\x00\x01S\x00\x00\x03\x95\x00\x00\x01\xef\x00\x00\x02\x9d\x00\x00\x01q\x00\x00\x03\x94\x00\x00\x01\xee\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x02\x9d\x00\x00\x01q\x00\x00\x03\x94\x00\x00\x01\xee', 'stored_name': 'processed.vadata.csv', 'stored_path': 'D:/new researches/Heart disease/datasets', '__version__': 3}</properties>
+		<properties node_id="25" format="literal">{'auto_apply': True, 'controlAreaVisible': True, 'learner_name': '', 'metric_index': 0, 'n_neighbors': 5, 'savedWidgetGeometry': None, 'weight_index': 0, '__version__': 1}</properties>
+		<properties node_id="26" format="literal">{'algorithm_index': 1, 'auto_apply': True, 'controlAreaVisible': True, 'learner_name': '', 'learning_rate': 1.0, 'loss_index': 0, 'n_estimators': 50, 'random_seed': 0, 'savedWidgetGeometry': None, 'use_random_seed': False, '__version__': 1}</properties>
+		<properties node_id="27" format="literal">{'auto_apply': True, 'class_weight': False, 'controlAreaVisible': True, 'index_output': 0, 'learner_name': '', 'max_depth': 3, 'max_features': 5, 'min_samples_split': 5, 'n_estimators': 10, 'savedWidgetGeometry': None, 'use_max_depth': False, 'use_max_features': False, 'use_min_samples_split': True, 'use_random_state': False, '__version__': 1}</properties>
+		<properties node_id="28" format="literal">{'activation_index': 3, 'alpha_index': 1, 'auto_apply': True, 'controlAreaVisible': True, 'hidden_layers_input': '100,', 'learner_name': '', 'max_iterations': 200, 'replicable': True, 'savedWidgetGeometry': None, 'solver_index': 2, '__version__': 2}</properties>
+		<properties node_id="29" format="literal">{'auto_apply': True, 'binary_trees': True, 'controlAreaVisible': True, 'learner_name': '', 'limit_depth': True, 'limit_majority': True, 'limit_min_internal': True, 'limit_min_leaf': True, 'max_depth': 100, 'min_internal': 5, 'min_leaf': 2, 'savedWidgetGeometry': None, 'sufficient_majority': 95, '__version__': 1}</properties>
+		<properties node_id="30" format="literal">{'auto_apply': True, 'beam_width': 5, 'checked_default_alpha': False, 'checked_parent_alpha': False, 'controlAreaVisible': True, 'covering_algorithm': 0, 'default_alpha': 1.0, 'evaluation_measure': 0, 'gamma': 0.7, 'learner_name': '', 'max_rule_length': 5, 'min_covered_examples': 1, 'parent_alpha': 1.0, 'rule_ordering': 0, 'savedWidgetGeometry': None, '__version__': 1}</properties>
+		<properties node_id="31" format="literal">{'auto_apply': True, 'controlAreaVisible': True, 'learner_name': '', 'method_index': 0, 'savedWidgetGeometry': None, 'catgb_editor': {'colsample_bylevel': 1, 'lambda_index': 55, 'learning_rate': 0.3, 'max_depth': 6, 'n_estimators': 100, 'random_state': True}, 'gb_editor': {'learning_rate': 0.1, 'max_depth': 3, 'min_samples_split': 2, 'n_estimators': 100, 'random_state': True, 'subsample': 1}, 'xgb_editor': {'colsample_bylevel': 1, 'colsample_bynode': 1, 'colsample_bytree': 1, 'lambda_index': 53, 'learning_rate': 0.3, 'max_depth': 6, 'n_estimators': 100, 'random_state': True, 'subsample': 1}, 'xgbrf_editor': {'colsample_bylevel': 1, 'colsample_bynode': 1, 'colsample_bytree': 1, 'lambda_index': 53, 'learning_rate': 0.3, 'max_depth': 6, 'n_estimators': 100, 'random_state': True, 'subsample': 1}, '__version__': 1}</properties>
+		<properties node_id="32" format="literal">{'alpha': 1e-05, 'auto_apply': True, 'cls_epsilon': 0.1, 'cls_loss_function_index': 0, 'controlAreaVisible': True, 'eta0': 0.01, 'l1_ratio': 0.15, 'learner_name': '', 'learning_rate_index': 0, 'max_iter': 1000, 'penalty_index': 2, 'power_t': 0.25, 'random_state': 0, 'reg_epsilon': 0.1, 'reg_loss_function_index': 0, 'savedWidgetGeometry': None, 'shuffle': True, 'tol': 0.001, 'tol_enabled': True, 'use_random_state': False, '__version__': 2}</properties>
+		<properties node_id="33" format="pickle">gASVLgMAAAAAAAB9lCiMCmF1dG9fYXBwbHmUiIwSY29udHJvbEFyZWFWaXNpYmxllIiME3NhdmVk
+V2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAAAAAaYAAACYAAAEWQAAAqoAAAGnAAAAtgAABFgAAAKp
+AAAAAAAAAAAGAAAAAacAAAC2AAAEWAAAAqmUjBBzZWxlY3RlZF9tZXRob2RzlI+UKIwWSW5mb3Jt
+YXRpb24gR2FpbiBSYXRpb5SMDUdpbmkgRGVjcmVhc2WUjBVVbml2YXJpYXRlIFJlZ3Jlc3Npb26U
+jATPh8KylIwIUlJlbGllZkaUkIwHc29ydGluZ5RLAksBhpSMC19fdmVyc2lvbl9flEsEjBBjb250
+ZXh0X3NldHRpbmdzlF2UKIwVb3Jhbmdld2lkZ2V0LnNldHRpbmdzlIwHQ29udGV4dJSTlCmBlH2U
+KIwGdmFsdWVzlH2UKIwJblNlbGVjdGVklEsFSv7///+GlIwOc2VsZWN0ZWRfYXR0cnOUXZQojANm
+cjmUS2WGlIwDZnIzlEtmhpSMA2ZyOJRLZoaUjANmcjGUS2aGlIwEZnIxMJRLZoaUZUr9////hpSM
+D3NlbGVjdGlvbk1ldGhvZJRLA0r+////hpRoDksEdYwKYXR0cmlidXRlc5R9lCiMA2ZyNZRLAmgg
+SwJoIksCjANmcjKUSwFoHksCjANmcjSUSwKMA2ZyNpRLAYwDZnI3lEsCaBxLAWgkSwKMBWNsYXNz
+lEsBdYwFbWV0YXOUfZR1YmgTKYGUfZQoaBZ9lChoGEsFSv7///+GlGgaXZQojARmcjEzlEtmhpSM
+BGZyMTKUS2aGlIwEZnIxMJRLZoaUjANmcjiUS2aGlIwDZnI5lEtlhpRlSv3///+GlGgnSwNK/v//
+/4aUaA5LBHVoKX2UKIwDZnI1lEsCjANmcjiUSwKMA2ZyMZRLAowDZnIylEsBjANmcjOUSwKMA2Zy
+NJRLAowDZnI2lEsBjANmcjeUSwKMA2ZyOZRLAYwEZnIxMJRLAowEZnIxMZRLAowEZnIxMpRLAowE
+ZnIxM5RLAowFY2xhc3OUSwF1aDF9lHViZXUu
+</properties>
+		<properties node_id="34" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01o\x00\x00\x00\x98\x00\x00\x04\x90\x00\x00\x02\xaa\x00\x00\x01p\x00\x00\x00\xb6\x00\x00\x04\x8f\x00\x00\x02\xa9\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x01p\x00\x00\x00\xb6\x00\x00\x04\x8f\x00\x00\x02\xa9', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="35" format="literal">{'add_type_annotations': True, 'auto_save': False, 'controlAreaVisible': True, 'filter': 'Comma-separated values (*.csv)', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\x9c\x00\x00\x01S\x00\x00\x04\x10\x00\x00\x01\xef\x00\x00\x02\x9d\x00\x00\x01q\x00\x00\x04\x0f\x00\x00\x01\xee\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x02\x9d\x00\x00\x01q\x00\x00\x04\x0f\x00\x00\x01\xee', 'stored_name': 'imputed_concatenated_withsvmoutliers_data.csv', 'stored_path': 'D:/new researches/Heart disease/NEWDB/DB', '__version__': 3}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>

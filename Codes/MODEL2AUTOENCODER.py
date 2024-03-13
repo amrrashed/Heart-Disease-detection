@@ -1,0 +1,94 @@
+# train autoencoder for classification with with compression in the bottleneck layer
+import pandas as pd
+from sklearn.datasets import make_classification
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.model_selection import train_test_split
+from tensorflow.keras.models import Model
+from tensorflow.keras.layers import Input
+from tensorflow.keras.layers import Dense
+from tensorflow.keras.layers import LeakyReLU
+from tensorflow.keras.layers import BatchNormalization
+from tensorflow.keras.utils import plot_model
+from matplotlib import pyplot
+
+# Load your dataset
+df = pd.read_csv('D:/new researches/Heart disease/datasets/db4/heart_statlog_cleveland_hungary_final.csv')
+
+
+# Extract features and labels
+X = df.drop(columns=['class'])
+y = df['class']
+
+# number of input columns
+n_inputs = X.shape[1]
+# split into train test sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
+# scale data
+t = MinMaxScaler()
+t.fit(X_train)
+X_train = t.transform(X_train)
+X_test = t.transform(X_test)
+# define encoder
+visible = Input(shape=(n_inputs,))
+# encoder level 1
+e = Dense(n_inputs*2)(visible)
+e = BatchNormalization()(e)
+e = LeakyReLU()(e)
+# encoder level 2
+e = Dense(n_inputs*3)(e)
+e = BatchNormalization()(e)
+e = LeakyReLU()(e)
+# encoder level 3
+e = Dense(n_inputs*4)(e)
+e = BatchNormalization()(e)
+e = LeakyReLU()(e)
+# encoder level 3
+e = Dense(n_inputs*5)(e)
+e = BatchNormalization()(e)
+e = LeakyReLU()(e)
+# bottleneck
+n_bottleneck = round(float(n_inputs) *6)
+bottleneck = Dense(n_bottleneck)(e)
+# define decoder, level 1
+d = Dense(n_inputs*5)(bottleneck)
+d = BatchNormalization()(d)
+d = LeakyReLU()(d)
+# decoder level 2
+d = Dense(n_inputs*4)(d)
+d = BatchNormalization()(d)
+d = LeakyReLU()(d)
+# decoder level 3
+d = Dense(n_inputs*3)(d)
+d = BatchNormalization()(d)
+d = LeakyReLU()(d)
+# decoder level 4
+d = Dense(n_inputs*2)(d)
+d = BatchNormalization()(d)
+d = LeakyReLU()(d)
+# output layer
+output = Dense(n_inputs, activation='linear')(d) #relu is better
+# define autoencoder model
+model = Model(inputs=visible, outputs=output)
+# compile autoencoder model
+model.compile(optimizer='adam', loss='mse')
+# plot the autoencoder
+plot_model(model, 'autoencoder_compres_model2.png', show_shapes=True)
+# fit the autoencoder model to reconstruct input
+history = model.fit(X_train, X_train, epochs=200, batch_size=20, verbose=2, validation_data=(X_test,X_test))
+# plot loss
+pyplot.plot(history.history['loss'], label='train')
+pyplot.plot(history.history['val_loss'], label='test')
+pyplot.legend()
+pyplot.show()
+# Retrieve loss and validation loss
+loss = history.history['loss']
+val_loss = history.history['val_loss']
+
+# Print the final values of loss and validation loss
+print("Final Loss:", loss[-1])
+print("Final Validation Loss:", val_loss[-1])
+# define an encoder model (without the decoder)
+encoder = Model(inputs=visible, outputs=bottleneck)
+plot_model(encoder, 'encoder_compress_model2.png', show_shapes=True)
+# save the encoder to file
+encoder.save('encoder2.h5')
