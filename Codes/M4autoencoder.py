@@ -8,7 +8,7 @@ from tensorflow.keras.utils import plot_model
 from matplotlib import pyplot
 
 # Load your dataset
-df = pd.read_csv('D:/new researches/Heart disease/NEWDB/DB2labels/original/concatenated5DB.csv')
+df = pd.read_csv('D:/new researches/send/Heart disease/NEWDB/DB2labels/original/concatenated5DB.csv')
 
 # Extract features and labels
 X = df.drop(columns=['class'])
